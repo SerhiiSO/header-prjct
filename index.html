@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <nav class="navigation">
+          <a href="../src/index.html" class="logo__link">
+            <img
+              src="../src/images/desctop/logo-desctop.png"
+              alt="логотип"
+              class="logo__link--icon"
+            />
+          </a>
+          <ul class="navigation__list navigation__list--reverse">
+            <li class="navigation__item">
+              <a href="../src/index.html" class="navigation__link">Головна</a>
+            </li>
+            <li class="navigation__item">
+              <a href="" class="navigation__link box"
+                >Послуги
+                <svg class="submenu__icon" width="10px" height="4px">
+                  <use href="/images/sprite.svg#icon-triangle-down-blue"></use>
+                </svg>
+              </a>
+              <ul class="submenu">
+                <li class="submenu__item">
+                  <a href="../src/3d-modeling.html" class="submenu__link"
+                    >3<span lang="eng">D</span> Моделювання
+                  </a>
+                </li>
+                <li class="submenu__item">
+                  <a href="../src/scanning.html" class="submenu__link"
+                    >3<span lang="eng">D</span> Сканування
+                  </a>
+                </li>
+                <li class="submenu__item">
+                  <a href="../src/printing.html" class="submenu__link"
+                    >3<span lang="eng">D</span> Друк
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="navigation__item">
+              <a href="../src/order.html" class="navigation__link">Замовити</a>
+            </li>
+            <li class="navigation__item">
+              <a href="../src/contacts.html" class="navigation__link"
+                >Контакти</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <button class="burger-btn" data-menu-open>
+          <svg class="burger-btn__icon" width="32" height="18">
+            <use href="/images/sprite.svg#icon-burger"></use>
+          </svg>
+        </button>
+        <a href="" class="mobile-contacts__link">
+          <svg class="mobile-contacts__icon" width="18" height="18">
+            <use href="/images/sprite.svg#icon-round-call"></use>
+          </svg>
+        </a>
+        <a href="" class="lang-change"><span lang="eng">ENG</span></a>
+
+        <ul class="contact__list">
+          <li class="contact__item">
+            <a href="tel:+380936432288" class="contact__link">
+              <svg class="contact__link--icon" width="10" height="10">
+                <use href="/images/sprite.svg#icon-round-call"></use></svg
+              >+38 (093) 643 22 88
+            </a>
+          </li>
+          <li class="contact__item">
+            <a href="tel:+380503454423" class="contact__link">
+              <svg class="contact__link--icon" width="10" height="10">
+                <use href="/images/sprite.svg#icon-round-call"></use></svg
+              >+38 (050) 345 44 23
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="mobile-menu" data-menu>
+        <div class="mobile-menu__container" data-container>
+          <button class="close-btn" data-menu-close>
+            <svg class="close-btn__icon">
+              <use href="/images/sprite.svg#icon-blue-cross"></use>
+            </svg>
+          </button>
+          <nav class="mobile-navigation">
+            <ul class="mobile-navigation__list">
+              <li class="mobile-navigation__item">ГОЛОВНА</li>
+              <li class="mobile-navigation__item">
+                ПОСЛУГИ
+                <ul class="mobile-submenu">
+                  <li class="mobile-submenu__list">3D Моделювання</li>
+                  <li class="mobile-submenu__list">3D Сканування</li>
+                  <li class="mobile-submenu__list">3D Друк</li>
+                </ul>
+              </li>
+              <li class="mobile-navigation__item">ЗАМОВИТИ</li>
+              <li class="mobile-navigation__item">КОНТАКТИ</li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima odit eum
+        harum esse incidunt accusantium odio officia voluptatibus nobis
+        reprehenderit modi dolorum nisi tenetur illo in, quod, quos, enim
+        laboriosam?
+      </p>
+    </main>
+    <script src="./js/menu.js"></script>
+  </body>
+</html>
